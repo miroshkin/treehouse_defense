@@ -1,4 +1,5 @@
-﻿using TreehouseDefense.Tests.Mocks;
+﻿using TreehouseDefense;
+using TreehouseDefense.Tests.Mocks;
 using Xunit;
 
 namespace TreehouseDefense.Tests
@@ -20,6 +21,18 @@ namespace TreehouseDefense.Tests
             target.FireOnInvaders(invaders);
 
             Assert.All(invaders, i => Assert.Equal(1, i.Health));
+        }
+
+        [Fact()]
+        public void TowerTest()
+        {
+            Assert.True(false, "This test needs an implementation");
+        }
+
+        [Fact()]
+        public void FireOnInvadersTest()
+        {
+            Assert.True(false, "This test needs an implementation");
         }
     }
 }
